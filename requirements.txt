@@ -1,0 +1,5 @@
+torch >= 1.12.1
+transformers >= 4.22.0
+wandb
+ujson
+tqdm
