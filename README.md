@@ -1,7 +1,9 @@
 # Causal View of Entity Bias
 
 Code for our paper [A Causal View of Entity Bias in (Large) Language Models](https://arxiv.org/abs/2305.14695) in Findings of EMNLP 2023.
-
+* We conduct a causal analysis of entity bias and its mitigation methods.
+* We propose a [training-time causal intervention](https://github.com/luka-group/Causal-View-of-Entity-Bias/blob/040c9f1ebfd6fa3d37e1683815c64511e4be1fa2/roberta.py#L141) for mitigating entity bias of white-box LLMs.
+* We propose an in-context causal intervention for mitigating entity bias of black-box LLMs.
 ![](figure.png)
 
 ## Dataset
